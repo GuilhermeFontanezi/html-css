@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: 'Open Sans';
+    background-color: #6B6A5F;
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+header > h1{
+    font-size: 40px;
+}
+
+nav{
+    background-color: rgb(112, 112, 112);
+    padding: 3px;
+    margin: 0px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.418);
+}
+
+main{
+    background-color: #94917e;
+    padding: 10px;
+    margin: 10px 10px 30px 10px;
+    border: solid 2px #94917e;
+    border-radius: 5px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.37);
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.514);
+
+}
+
+article{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: justify;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+aside {
+    background-color: #94917e;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+#assuntos{
+    margin-bottom: 15px;
+}
+
