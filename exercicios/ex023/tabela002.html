@@ -9,6 +9,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table {
+            position: relative;
             width: 500px;
             border-collapse: collapse;
         }
@@ -30,8 +31,15 @@
         }
 
         thead, tfoot {
-            background-color: rgb(59, 59, 59);
+            background-color: #3b3b3b;
             color: white; 
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #3b3b3b;
+
         }
 
         .numero {
