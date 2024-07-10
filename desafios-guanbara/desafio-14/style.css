@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ table {
+    width: 400px;
+    border-collapse: collapse;
+ }
+
+ td, th {
+    border: 1px solid black;
+    padding: 7px;
+ }
+
+ th {
+    background-color: gray;
+    color: white;
+ }
+ th.normal {
+    background-color: white;
+    color: black;
+ }
+
+ td.backgroundcinza {
+    background-color: gray;
+    color: white;
+ }
