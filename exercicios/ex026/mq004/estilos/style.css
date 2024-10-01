@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 
-html {
+ html {
     height: 100vh;
 }
 
@@ -22,7 +22,7 @@ body {
 
 main {
     background-color: rgba(255, 255, 255, 0.616);
-    width: 400px;
+    width: 500px;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -32,7 +32,7 @@ main {
 h1 {
     text-align: center;
     color: white;
-    font-size: 1em;
+    font-size: 1.3em;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.76);
 }
 
